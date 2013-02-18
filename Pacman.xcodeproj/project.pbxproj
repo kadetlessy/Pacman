@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C35F047F16CC3E90001C03C4 /* GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C35F047D16CC3E90001C03C4 /* GameManager.m */; };
+		C35F048216CC463E001C03C4 /* labirint.txt in Resources */ = {isa = PBXBuildFile; fileRef = C35F048116CC463E001C03C4 /* labirint.txt */; };
+		C35F048816CC596B001C03C4 /* forest.png in Resources */ = {isa = PBXBuildFile; fileRef = C35F048716CC596A001C03C4 /* forest.png */; };
+		C35F048A16CC6072001C03C4 /* point.png in Resources */ = {isa = PBXBuildFile; fileRef = C35F048916CC6072001C03C4 /* point.png */; };
+		C35F048D16CC65DA001C03C4 /* GameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C35F048C16CC65DA001C03C4 /* GameObject.m */; };
 		C37D69FD16C8E8AC00B6EF09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37D69FC16C8E8AC00B6EF09 /* UIKit.framework */; };
 		C37D69FF16C8E8AC00B6EF09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37D69FE16C8E8AC00B6EF09 /* Foundation.framework */; };
 		C37D6A0116C8E8AC00B6EF09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37D6A0016C8E8AC00B6EF09 /* CoreGraphics.framework */; };
@@ -16,9 +21,54 @@
 		C37D6A0F16C8E8AC00B6EF09 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C37D6A0E16C8E8AC00B6EF09 /* Default.png */; };
 		C37D6A1116C8E8AC00B6EF09 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C37D6A1016C8E8AC00B6EF09 /* Default@2x.png */; };
 		C37D6A1316C8E8AC00B6EF09 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C37D6A1216C8E8AC00B6EF09 /* Default-568h@2x.png */; };
+		C37D6A1B16C8E90700B6EF09 /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = C37D6A1A16C8E90700B6EF09 /* OpenGLView.m */; };
+		C37D6A1D16C8E96B00B6EF09 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37D6A1C16C8E96B00B6EF09 /* QuartzCore.framework */; };
+		C37D6A1F16C8E97100B6EF09 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37D6A1E16C8E97100B6EF09 /* OpenGLES.framework */; };
+		C37D6A2116C8EE0500B6EF09 /* SimpleVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = C37D6A2016C8EE0500B6EF09 /* SimpleVertex.glsl */; };
+		C37D6A2316C8EF5B00B6EF09 /* SimpleFragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = C37D6A2216C8EF5B00B6EF09 /* SimpleFragment.glsl */; };
+		C37D6A2F16C8F79300B6EF09 /* CC3Foundation.m in Sources */ = {isa = PBXBuildFile; fileRef = C37D6A2616C8F79300B6EF09 /* CC3Foundation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C37D6A3016C8F79300B6EF09 /* CC3GLMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = C37D6A2816C8F79300B6EF09 /* CC3GLMatrix.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C37D6A3116C8F79300B6EF09 /* CC3Kazmath.c in Sources */ = {isa = PBXBuildFile; fileRef = C37D6A2916C8F79300B6EF09 /* CC3Kazmath.c */; };
+		C37D6A3216C8F79300B6EF09 /* CC3Math.m in Sources */ = {isa = PBXBuildFile; fileRef = C37D6A2D16C8F79300B6EF09 /* CC3Math.m */; };
+		C37D6A3916C8FDB300B6EF09 /* pacman.png in Resources */ = {isa = PBXBuildFile; fileRef = C37D6A3816C8FDB300B6EF09 /* pacman.png */; };
+		C37F45A816D193630027862D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37F45A616D193630027862D /* RootViewController.m */; };
+		C37F45A916D193630027862D /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C37F45A716D193630027862D /* RootViewController.xib */; };
+		C37F45AD16D19BB70027862D /* emulogic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C37F45AC16D19BB70027862D /* emulogic.ttf */; };
+		C37F45B016D19C9C0027862D /* CustomPacmanLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C37F45AF16D19C9C0027862D /* CustomPacmanLabel.m */; };
+		C37F45B816D1F1340027862D /* GameManager.xib in Resources */ = {isa = PBXBuildFile; fileRef = C35F047E16CC3E90001C03C4 /* GameManager.xib */; };
+		C37F45BD16D1FA970027862D /* pear.png in Resources */ = {isa = PBXBuildFile; fileRef = C37F45BB16D1FA970027862D /* pear.png */; };
+		C37F45BE16D1FA970027862D /* strawberry.png in Resources */ = {isa = PBXBuildFile; fileRef = C37F45BC16D1FA970027862D /* strawberry.png */; };
+		C37F45C016D1FAC60027862D /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = C37F45BF16D1FAC60027862D /* apple.png */; };
+		C37F45C216D1FFDD0027862D /* pacmanFull.png in Resources */ = {isa = PBXBuildFile; fileRef = C37F45C116D1FFDC0027862D /* pacmanFull.png */; };
+		C37F45C716D2095D0027862D /* appleNA.png in Resources */ = {isa = PBXBuildFile; fileRef = C37F45C316D2095D0027862D /* appleNA.png */; };
+		C37F45C816D2095D0027862D /* cherryNA.png in Resources */ = {isa = PBXBuildFile; fileRef = C37F45C416D2095D0027862D /* cherryNA.png */; };
+		C37F45C916D2095D0027862D /* pearNA.png in Resources */ = {isa = PBXBuildFile; fileRef = C37F45C516D2095D0027862D /* pearNA.png */; };
+		C37F45CA16D2095D0027862D /* strawberryNA.png in Resources */ = {isa = PBXBuildFile; fileRef = C37F45C616D2095D0027862D /* strawberryNA.png */; };
+		C37F45DC16D2274C0027862D /* GameOverView.m in Sources */ = {isa = PBXBuildFile; fileRef = C37F45DB16D2274B0027862D /* GameOverView.m */; };
+		C382DD6D16CDD2280063BD4D /* Monster.m in Sources */ = {isa = PBXBuildFile; fileRef = C382DD6C16CDD2280063BD4D /* Monster.m */; };
+		C382DD6F16CDEC550063BD4D /* cherry.png in Resources */ = {isa = PBXBuildFile; fileRef = C382DD6E16CDEC550063BD4D /* cherry.png */; };
+		C38DA2E616D25EB200D041C0 /* pacman-game.png in Resources */ = {isa = PBXBuildFile; fileRef = C38DA2E316D25EB200D041C0 /* pacman-game.png */; };
+		C38DA2E816D25EB200D041C0 /* start_game.png in Resources */ = {isa = PBXBuildFile; fileRef = C38DA2E516D25EB200D041C0 /* start_game.png */; };
+		C38DA2ED16D2605600D041C0 /* monsterDown.png in Resources */ = {isa = PBXBuildFile; fileRef = C38DA2E916D2605600D041C0 /* monsterDown.png */; };
+		C38DA2EE16D2605600D041C0 /* monsterLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = C38DA2EA16D2605600D041C0 /* monsterLeft.png */; };
+		C38DA2EF16D2605600D041C0 /* monsterRight.png in Resources */ = {isa = PBXBuildFile; fileRef = C38DA2EB16D2605600D041C0 /* monsterRight.png */; };
+		C38DA2F016D2605600D041C0 /* monsterUp.png in Resources */ = {isa = PBXBuildFile; fileRef = C38DA2EC16D2605600D041C0 /* monsterUp.png */; };
+		C3FEEEA816D05FEE00BBEC78 /* pacmanLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = C3FEEEA716D05FEE00BBEC78 /* pacmanLeft.png */; };
+		C3FEEEAC16D0608100BBEC78 /* pacmanDown.png in Resources */ = {isa = PBXBuildFile; fileRef = C3FEEEA916D0608100BBEC78 /* pacmanDown.png */; };
+		C3FEEEAD16D0608100BBEC78 /* pacmanRight.png in Resources */ = {isa = PBXBuildFile; fileRef = C3FEEEAA16D0608100BBEC78 /* pacmanRight.png */; };
+		C3FEEEAE16D0608100BBEC78 /* pacmanUp.png in Resources */ = {isa = PBXBuildFile; fileRef = C3FEEEAB16D0608100BBEC78 /* pacmanUp.png */; };
+		C3FEEEB516D0A65800BBEC78 /* Pacman.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FEEEB416D0A65800BBEC78 /* Pacman.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C35F047C16CC3E90001C03C4 /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameManager.h; path = ../GameManager.h; sourceTree = "<group>"; };
+		C35F047D16CC3E90001C03C4 /* GameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameManager.m; path = ../GameManager.m; sourceTree = "<group>"; };
+		C35F047E16CC3E90001C03C4 /* GameManager.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GameManager.xib; path = ../GameManager.xib; sourceTree = "<group>"; };
+		C35F048116CC463E001C03C4 /* labirint.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = labirint.txt; path = ../labirint.txt; sourceTree = "<group>"; };
+		C35F048716CC596A001C03C4 /* forest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forest.png; sourceTree = "<group>"; };
+		C35F048916CC6072001C03C4 /* point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point.png; sourceTree = "<group>"; };
+		C35F048B16CC65DA001C03C4 /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameObject.h; path = ../GameObject.h; sourceTree = "<group>"; };
+		C35F048C16CC65DA001C03C4 /* GameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameObject.m; path = ../GameObject.m; sourceTree = "<group>"; };
 		C37D69F916C8E8AC00B6EF09 /* Pacman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pacman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C37D69FC16C8E8AC00B6EF09 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C37D69FE16C8E8AC00B6EF09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +82,55 @@
 		C37D6A0E16C8E8AC00B6EF09 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C37D6A1016C8E8AC00B6EF09 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C37D6A1216C8E8AC00B6EF09 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C37D6A1916C8E90700B6EF09 /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLView.h; path = ../OpenGLView.h; sourceTree = "<group>"; };
+		C37D6A1A16C8E90700B6EF09 /* OpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpenGLView.m; path = ../OpenGLView.m; sourceTree = "<group>"; };
+		C37D6A1C16C8E96B00B6EF09 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C37D6A1E16C8E97100B6EF09 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C37D6A2016C8EE0500B6EF09 /* SimpleVertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleVertex.glsl; sourceTree = "<group>"; };
+		C37D6A2216C8EF5B00B6EF09 /* SimpleFragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleFragment.glsl; sourceTree = "<group>"; };
+		C37D6A2516C8F79300B6EF09 /* CC3Foundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Foundation.h; sourceTree = "<group>"; };
+		C37D6A2616C8F79300B6EF09 /* CC3Foundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3Foundation.m; sourceTree = "<group>"; };
+		C37D6A2716C8F79300B6EF09 /* CC3GLMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3GLMatrix.h; sourceTree = "<group>"; };
+		C37D6A2816C8F79300B6EF09 /* CC3GLMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3GLMatrix.m; sourceTree = "<group>"; };
+		C37D6A2916C8F79300B6EF09 /* CC3Kazmath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CC3Kazmath.c; sourceTree = "<group>"; };
+		C37D6A2A16C8F79300B6EF09 /* CC3Kazmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Kazmath.h; sourceTree = "<group>"; };
+		C37D6A2B16C8F79300B6EF09 /* CC3Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Logging.h; sourceTree = "<group>"; };
+		C37D6A2C16C8F79300B6EF09 /* CC3Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Math.h; sourceTree = "<group>"; };
+		C37D6A2D16C8F79300B6EF09 /* CC3Math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3Math.m; sourceTree = "<group>"; };
+		C37D6A2E16C8F79300B6EF09 /* ccTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccTypes.h; sourceTree = "<group>"; };
+		C37D6A3816C8FDB300B6EF09 /* pacman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pacman.png; sourceTree = "<group>"; };
+		C37F45A516D193630027862D /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
+		C37F45A616D193630027862D /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
+		C37F45A716D193630027862D /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RootViewController.xib; path = ../RootViewController.xib; sourceTree = "<group>"; };
+		C37F45AC16D19BB70027862D /* emulogic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = emulogic.ttf; path = ../Art/emulogic.ttf; sourceTree = "<group>"; };
+		C37F45AE16D19C9C0027862D /* CustomPacmanLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPacmanLabel.h; sourceTree = "<group>"; };
+		C37F45AF16D19C9C0027862D /* CustomPacmanLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPacmanLabel.m; sourceTree = "<group>"; };
+		C37F45B516D1E43E0027862D /* AppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		C37F45BB16D1FA970027862D /* pear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pear.png; sourceTree = "<group>"; };
+		C37F45BC16D1FA970027862D /* strawberry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strawberry.png; sourceTree = "<group>"; };
+		C37F45BF16D1FAC60027862D /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		C37F45C116D1FFDC0027862D /* pacmanFull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pacmanFull.png; sourceTree = "<group>"; };
+		C37F45C316D2095D0027862D /* appleNA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appleNA.png; sourceTree = "<group>"; };
+		C37F45C416D2095D0027862D /* cherryNA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cherryNA.png; sourceTree = "<group>"; };
+		C37F45C516D2095D0027862D /* pearNA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pearNA.png; sourceTree = "<group>"; };
+		C37F45C616D2095D0027862D /* strawberryNA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strawberryNA.png; sourceTree = "<group>"; };
+		C37F45DA16D2274B0027862D /* GameOverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOverView.h; path = ../GameOverView.h; sourceTree = "<group>"; };
+		C37F45DB16D2274B0027862D /* GameOverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameOverView.m; path = ../GameOverView.m; sourceTree = "<group>"; };
+		C382DD6B16CDD2280063BD4D /* Monster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Monster.h; path = ../Monster.h; sourceTree = "<group>"; };
+		C382DD6C16CDD2280063BD4D /* Monster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Monster.m; path = ../Monster.m; sourceTree = "<group>"; };
+		C382DD6E16CDEC550063BD4D /* cherry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cherry.png; sourceTree = "<group>"; };
+		C38DA2E316D25EB200D041C0 /* pacman-game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pacman-game.png"; sourceTree = "<group>"; };
+		C38DA2E516D25EB200D041C0 /* start_game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_game.png; sourceTree = "<group>"; };
+		C38DA2E916D2605600D041C0 /* monsterDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monsterDown.png; sourceTree = "<group>"; };
+		C38DA2EA16D2605600D041C0 /* monsterLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monsterLeft.png; sourceTree = "<group>"; };
+		C38DA2EB16D2605600D041C0 /* monsterRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monsterRight.png; sourceTree = "<group>"; };
+		C38DA2EC16D2605600D041C0 /* monsterUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monsterUp.png; sourceTree = "<group>"; };
+		C3FEEEA716D05FEE00BBEC78 /* pacmanLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pacmanLeft.png; sourceTree = "<group>"; };
+		C3FEEEA916D0608100BBEC78 /* pacmanDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pacmanDown.png; sourceTree = "<group>"; };
+		C3FEEEAA16D0608100BBEC78 /* pacmanRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pacmanRight.png; sourceTree = "<group>"; };
+		C3FEEEAB16D0608100BBEC78 /* pacmanUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pacmanUp.png; sourceTree = "<group>"; };
+		C3FEEEB316D0A65800BBEC78 /* Pacman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pacman.h; sourceTree = "<group>"; };
+		C3FEEEB416D0A65800BBEC78 /* Pacman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pacman.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +138,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C37D6A1F16C8E97100B6EF09 /* OpenGLES.framework in Frameworks */,
+				C37D6A1D16C8E96B00B6EF09 /* QuartzCore.framework in Frameworks */,
 				C37D69FD16C8E8AC00B6EF09 /* UIKit.framework in Frameworks */,
 				C37D69FF16C8E8AC00B6EF09 /* Foundation.framework in Frameworks */,
 				C37D6A0116C8E8AC00B6EF09 /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +152,7 @@
 		C37D69F016C8E8AC00B6EF09 = {
 			isa = PBXGroup;
 			children = (
+				C37D6A2416C8F79300B6EF09 /* Cocos3DMathLib */,
 				C37D6A0216C8E8AC00B6EF09 /* Pacman */,
 				C37D69FB16C8E8AC00B6EF09 /* Frameworks */,
 				C37D69FA16C8E8AC00B6EF09 /* Products */,
@@ -68,6 +170,8 @@
 		C37D69FB16C8E8AC00B6EF09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C37D6A1E16C8E97100B6EF09 /* OpenGLES.framework */,
+				C37D6A1C16C8E96B00B6EF09 /* QuartzCore.framework */,
 				C37D69FC16C8E8AC00B6EF09 /* UIKit.framework */,
 				C37D69FE16C8E8AC00B6EF09 /* Foundation.framework */,
 				C37D6A0016C8E8AC00B6EF09 /* CoreGraphics.framework */,
@@ -78,8 +182,18 @@
 		C37D6A0216C8E8AC00B6EF09 /* Pacman */ = {
 			isa = PBXGroup;
 			children = (
+				C37F45B416D1E1F80027862D /* Game Objects */,
+				C35F047C16CC3E90001C03C4 /* GameManager.h */,
+				C35F047D16CC3E90001C03C4 /* GameManager.m */,
+				C35F047E16CC3E90001C03C4 /* GameManager.xib */,
+				C37F45B516D1E43E0027862D /* AppConstants.h */,
+				C37F45A516D193630027862D /* RootViewController.h */,
+				C37F45A616D193630027862D /* RootViewController.m */,
+				C37F45A716D193630027862D /* RootViewController.xib */,
 				C37D6A0B16C8E8AC00B6EF09 /* AppDelegate.h */,
 				C37D6A0C16C8E8AC00B6EF09 /* AppDelegate.m */,
+				C38DA2F116D2635300D041C0 /* CustomThings */,
+				C37F45B316D1E1A50027862D /* Rendering */,
 				C37D6A0316C8E8AC00B6EF09 /* Supporting Files */,
 			);
 			path = Pacman;
@@ -88,7 +202,10 @@
 		C37D6A0316C8E8AC00B6EF09 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C37D6A3316C8FA3000B6EF09 /* Art */,
 				C37D6A0416C8E8AC00B6EF09 /* Pacman-Info.plist */,
+				C37F45AC16D19BB70027862D /* emulogic.ttf */,
+				C35F048116CC463E001C03C4 /* labirint.txt */,
 				C37D6A0516C8E8AC00B6EF09 /* InfoPlist.strings */,
 				C37D6A0816C8E8AC00B6EF09 /* main.m */,
 				C37D6A0A16C8E8AC00B6EF09 /* Pacman-Prefix.pch */,
@@ -97,6 +214,89 @@
 				C37D6A1216C8E8AC00B6EF09 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C37D6A2416C8F79300B6EF09 /* Cocos3DMathLib */ = {
+			isa = PBXGroup;
+			children = (
+				C37D6A2516C8F79300B6EF09 /* CC3Foundation.h */,
+				C37D6A2616C8F79300B6EF09 /* CC3Foundation.m */,
+				C37D6A2716C8F79300B6EF09 /* CC3GLMatrix.h */,
+				C37D6A2816C8F79300B6EF09 /* CC3GLMatrix.m */,
+				C37D6A2916C8F79300B6EF09 /* CC3Kazmath.c */,
+				C37D6A2A16C8F79300B6EF09 /* CC3Kazmath.h */,
+				C37D6A2B16C8F79300B6EF09 /* CC3Logging.h */,
+				C37D6A2C16C8F79300B6EF09 /* CC3Math.h */,
+				C37D6A2D16C8F79300B6EF09 /* CC3Math.m */,
+				C37D6A2E16C8F79300B6EF09 /* ccTypes.h */,
+			);
+			name = Cocos3DMathLib;
+			path = Pacman/Cocos3DMathLib;
+			sourceTree = "<group>";
+		};
+		C37D6A3316C8FA3000B6EF09 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				C38DA2E916D2605600D041C0 /* monsterDown.png */,
+				C38DA2EA16D2605600D041C0 /* monsterLeft.png */,
+				C38DA2EB16D2605600D041C0 /* monsterRight.png */,
+				C38DA2EC16D2605600D041C0 /* monsterUp.png */,
+				C38DA2E316D25EB200D041C0 /* pacman-game.png */,
+				C38DA2E516D25EB200D041C0 /* start_game.png */,
+				C37F45C316D2095D0027862D /* appleNA.png */,
+				C37F45C416D2095D0027862D /* cherryNA.png */,
+				C37F45C516D2095D0027862D /* pearNA.png */,
+				C37F45C616D2095D0027862D /* strawberryNA.png */,
+				C37F45C116D1FFDC0027862D /* pacmanFull.png */,
+				C37F45BF16D1FAC60027862D /* apple.png */,
+				C37F45BB16D1FA970027862D /* pear.png */,
+				C37F45BC16D1FA970027862D /* strawberry.png */,
+				C3FEEEA916D0608100BBEC78 /* pacmanDown.png */,
+				C3FEEEAA16D0608100BBEC78 /* pacmanRight.png */,
+				C3FEEEAB16D0608100BBEC78 /* pacmanUp.png */,
+				C3FEEEA716D05FEE00BBEC78 /* pacmanLeft.png */,
+				C382DD6E16CDEC550063BD4D /* cherry.png */,
+				C35F048916CC6072001C03C4 /* point.png */,
+				C35F048716CC596A001C03C4 /* forest.png */,
+				C37D6A3816C8FDB300B6EF09 /* pacman.png */,
+			);
+			name = Art;
+			path = ../Art;
+			sourceTree = "<group>";
+		};
+		C37F45B316D1E1A50027862D /* Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				C37D6A2016C8EE0500B6EF09 /* SimpleVertex.glsl */,
+				C37D6A2216C8EF5B00B6EF09 /* SimpleFragment.glsl */,
+				C37D6A1916C8E90700B6EF09 /* OpenGLView.h */,
+				C37D6A1A16C8E90700B6EF09 /* OpenGLView.m */,
+			);
+			name = Rendering;
+			sourceTree = "<group>";
+		};
+		C37F45B416D1E1F80027862D /* Game Objects */ = {
+			isa = PBXGroup;
+			children = (
+				C382DD6B16CDD2280063BD4D /* Monster.h */,
+				C382DD6C16CDD2280063BD4D /* Monster.m */,
+				C3FEEEB316D0A65800BBEC78 /* Pacman.h */,
+				C3FEEEB416D0A65800BBEC78 /* Pacman.m */,
+				C35F048B16CC65DA001C03C4 /* GameObject.h */,
+				C35F048C16CC65DA001C03C4 /* GameObject.m */,
+			);
+			name = "Game Objects";
+			sourceTree = "<group>";
+		};
+		C38DA2F116D2635300D041C0 /* CustomThings */ = {
+			isa = PBXGroup;
+			children = (
+				C37F45DA16D2274B0027862D /* GameOverView.h */,
+				C37F45DB16D2274B0027862D /* GameOverView.m */,
+				C37F45AE16D19C9C0027862D /* CustomPacmanLabel.h */,
+				C37F45AF16D19C9C0027862D /* CustomPacmanLabel.m */,
+			);
+			name = CustomThings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +354,34 @@
 				C37D6A0F16C8E8AC00B6EF09 /* Default.png in Resources */,
 				C37D6A1116C8E8AC00B6EF09 /* Default@2x.png in Resources */,
 				C37D6A1316C8E8AC00B6EF09 /* Default-568h@2x.png in Resources */,
+				C37D6A2116C8EE0500B6EF09 /* SimpleVertex.glsl in Resources */,
+				C37D6A2316C8EF5B00B6EF09 /* SimpleFragment.glsl in Resources */,
+				C37D6A3916C8FDB300B6EF09 /* pacman.png in Resources */,
+				C35F048216CC463E001C03C4 /* labirint.txt in Resources */,
+				C35F048816CC596B001C03C4 /* forest.png in Resources */,
+				C35F048A16CC6072001C03C4 /* point.png in Resources */,
+				C382DD6F16CDEC550063BD4D /* cherry.png in Resources */,
+				C3FEEEA816D05FEE00BBEC78 /* pacmanLeft.png in Resources */,
+				C3FEEEAC16D0608100BBEC78 /* pacmanDown.png in Resources */,
+				C3FEEEAD16D0608100BBEC78 /* pacmanRight.png in Resources */,
+				C3FEEEAE16D0608100BBEC78 /* pacmanUp.png in Resources */,
+				C37F45A916D193630027862D /* RootViewController.xib in Resources */,
+				C37F45AD16D19BB70027862D /* emulogic.ttf in Resources */,
+				C37F45B816D1F1340027862D /* GameManager.xib in Resources */,
+				C37F45BD16D1FA970027862D /* pear.png in Resources */,
+				C37F45BE16D1FA970027862D /* strawberry.png in Resources */,
+				C37F45C016D1FAC60027862D /* apple.png in Resources */,
+				C37F45C216D1FFDD0027862D /* pacmanFull.png in Resources */,
+				C37F45C716D2095D0027862D /* appleNA.png in Resources */,
+				C37F45C816D2095D0027862D /* cherryNA.png in Resources */,
+				C37F45C916D2095D0027862D /* pearNA.png in Resources */,
+				C37F45CA16D2095D0027862D /* strawberryNA.png in Resources */,
+				C38DA2E616D25EB200D041C0 /* pacman-game.png in Resources */,
+				C38DA2E816D25EB200D041C0 /* start_game.png in Resources */,
+				C38DA2ED16D2605600D041C0 /* monsterDown.png in Resources */,
+				C38DA2EE16D2605600D041C0 /* monsterLeft.png in Resources */,
+				C38DA2EF16D2605600D041C0 /* monsterRight.png in Resources */,
+				C38DA2F016D2605600D041C0 /* monsterUp.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +394,18 @@
 			files = (
 				C37D6A0916C8E8AC00B6EF09 /* main.m in Sources */,
 				C37D6A0D16C8E8AC00B6EF09 /* AppDelegate.m in Sources */,
+				C37D6A1B16C8E90700B6EF09 /* OpenGLView.m in Sources */,
+				C37D6A2F16C8F79300B6EF09 /* CC3Foundation.m in Sources */,
+				C37D6A3016C8F79300B6EF09 /* CC3GLMatrix.m in Sources */,
+				C37D6A3116C8F79300B6EF09 /* CC3Kazmath.c in Sources */,
+				C37D6A3216C8F79300B6EF09 /* CC3Math.m in Sources */,
+				C35F047F16CC3E90001C03C4 /* GameManager.m in Sources */,
+				C35F048D16CC65DA001C03C4 /* GameObject.m in Sources */,
+				C382DD6D16CDD2280063BD4D /* Monster.m in Sources */,
+				C3FEEEB516D0A65800BBEC78 /* Pacman.m in Sources */,
+				C37F45A816D193630027862D /* RootViewController.m in Sources */,
+				C37F45B016D19C9C0027862D /* CustomPacmanLabel.m in Sources */,
+				C37F45DC16D2274C0027862D /* GameOverView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +520,7 @@
 				C37D6A1816C8E8AC00B6EF09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
