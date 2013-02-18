@@ -29,7 +29,7 @@
 #define LABIRINT_CELL_SIZE 20
 
 #define PACMAN_SPEED 100
-#define MONSTER_SPEED 0
+#define MONSTER_SPEED 50
 
 #define UP 0
 #define LEFT 1
